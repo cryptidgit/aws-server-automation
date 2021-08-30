@@ -11,8 +11,7 @@ certifyDomains.sh : This is the script that gets deployed to the EC2 instance by
 
 
 ## Server Automation Script Instructions
-Before starting, ensure that AWS CLI is installed on the command line and that your AWS account is linked to it.
-
+Before starting, ensure that AWS CLI is installed on the command line and that your AWS account is linked to it with the proper credentials.
 1) Run instanceSetup.sh first with the following syntax: ./instanceSetup.sh -t [instance type here] -k [key name here] -d [domain name]. If you're using an existing key make sure that it's in the same directory as the rest of the files!!!
 
 2) Once instanceSetup.sh is finished running, make sure to keep the info and command that it gives at the end.  You'll need the listed IP address for the next step.
